@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/fav"
+        app:showAsAction="never"
+        android:title="Favouites" />
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/group_by_cuisine"
+            android:checked="true"
+            android:title="Group by Cuisine"
+            android:titleCondensed="Group by Cuisine" />
+
+        <item android:id="@+id/sort_by_price_asc"
+            android:title="Price: Low to High"
+            android:titleCondensed="Price: Low to High" />
+
+        <item android:id="@+id/sort_by_price_desc"
+            android:title="Price: High to Low"
+            android:titleCondensed="Price: High to Low" />
+
+        <item android:id="@+id/sort_by_rating_asc"
+            android:title="Rating: Low to High"
+            android:titleCondensed="Rating: Low to High" />
+
+        <item android:id="@+id/sort_by_rating_desc"
+            android:title="Rating: High to Low"
+            android:titleCondensed="Rating: High to Low" />
+    </group>
+
+</menu>
